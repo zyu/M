@@ -1,0 +1,39 @@
+﻿@model M.Models.AREAS
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>AREAS</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.areaname)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.areaname)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.x_coord)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.x_coord)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.y_coord)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.y_coord)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Lader">
+  <DataContextMoniker Name="/LaderDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a88d9898-6a6a-4dfb-b726-cb684622eb82" absoluteBounds="3.625, 2.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LaderDataContext/AREAS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f34366f4-f526-4f71-bd23-d5e751a57053" absoluteBounds="3.64, 2.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4104dba3-2652-41bc-9721-526cd7540e43" absoluteBounds="6.5, 2, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LaderDataContext/DATATABLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="16acd619-1842-4538-9875-4139f9181df5" absoluteBounds="6.515, 2.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7bd29a38-ec9c-4da4-bb83-e85b12390a31" absoluteBounds="3.75, 5.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LaderDataContext/TYPENAME" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d3e7fe5-d47a-43c9-8c49-d88945773e82" absoluteBounds="3.765, 5.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.71875 : 5.125); (5.71875 : 3.86464680989583); (6.5 : 3.86464680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LaderDataContext/TYPENAME/TYPENAME_DATATABLE" />
+      <nodes>
+        <classShapeMoniker Id="7bd29a38-ec9c-4da4-bb83-e85b12390a31" />
+        <classShapeMoniker Id="4104dba3-2652-41bc-9721-526cd7540e43" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
